@@ -1,7 +1,7 @@
 group 'com.morozov'
 version '1.0-SNAPSHOT'
 
-apply plugin: 'java'
+apply plugin: 'groovy'
 
 sourceCompatibility = 1.8
 
@@ -10,5 +10,6 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.codehaus.groovy:groovy-all:2.4.7'
+    testCompile 'junit:junit:4.12'
 }
