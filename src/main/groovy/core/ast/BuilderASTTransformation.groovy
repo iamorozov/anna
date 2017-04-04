@@ -6,7 +6,6 @@ import org.codehaus.groovy.ast.ClassNode
 import org.codehaus.groovy.ast.FieldNode
 import org.codehaus.groovy.ast.InnerClassNode
 import org.codehaus.groovy.ast.MethodNode
-import org.codehaus.groovy.ast.PropertyNode
 import org.codehaus.groovy.ast.expr.Expression
 import org.codehaus.groovy.ast.stmt.BlockStatement
 import org.codehaus.groovy.control.CompilePhase
@@ -25,8 +24,6 @@ import static org.codehaus.groovy.ast.tools.GeneralUtils.params
 import static org.codehaus.groovy.ast.tools.GeneralUtils.propX
 import static org.codehaus.groovy.ast.tools.GeneralUtils.returnS
 import static org.codehaus.groovy.ast.tools.GeneralUtils.stmt
-import static org.codehaus.groovy.ast.tools.GeneralUtils.varX
-import static org.codehaus.groovy.ast.tools.GeneralUtils.varX
 import static org.codehaus.groovy.ast.tools.GeneralUtils.varX
 import static org.codehaus.groovy.ast.tools.GenericsUtils.newClass
 import static org.codehaus.groovy.transform.BuilderASTTransformation.NO_EXCEPTIONS
