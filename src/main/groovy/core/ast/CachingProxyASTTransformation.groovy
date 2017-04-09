@@ -21,7 +21,7 @@ class CachingProxyASTTransformation extends AbstractASTTransformation{
     void visit(ASTNode[] nodes, SourceUnit source) {
         def toProxy = nodes[1] as ClassNode
 
-        List<MethodNode> methods = toProxy.getMethods()
+        List<MethodNode> methods = toProxy.methods
         List<MethodNode> toAdd = []
         methods.each { it ->
             if (it.abstract || it.voidMethod) {
