@@ -11,6 +11,6 @@ import java.lang.annotation.Target
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.SOURCE)
 @GroovyASTTransformationClass(classes = IterableASTTransformation.class)
-@interface IterableClass {
+@interface Iterable {
     String iterableElement()
 }

@@ -1,2 +1,3 @@
 rootProject.name = 'anna'
+include 'anna-test'
 
