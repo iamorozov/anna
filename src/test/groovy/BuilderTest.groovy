@@ -3,8 +3,10 @@ import org.junit.Test
 class BuilderTest extends PatternTest{
     @Test
     void "should be able to construct classes with Builder"() {
-        assertScript '''  
-            @core.patterns.Builder
+        assertScript '''
+            import core.patterns.Builder 
+            
+            @Builder
             class Account{
                 String userId
                 String token

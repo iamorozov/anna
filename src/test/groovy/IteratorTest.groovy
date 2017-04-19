@@ -13,6 +13,7 @@ class IteratorTest extends PatternTest{
             
             def iterable = new IterableClass()
             iterable.forEach({e -> println e})
+            iterable instanceof Iterable
         '''
     }
 }

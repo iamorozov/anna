@@ -5,7 +5,6 @@ class CachingProxyTest extends PatternTest {
     void "should be able to use caching proxy"() {
         assertScript '''
             import core.patterns.CachingProxy
-            import groovy.transform.Field
                         
             @CachingProxy
             class ToCache{
